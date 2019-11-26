@@ -1,3 +1,5 @@
+print("v1.1.12")
+
 function sandbox(var,func)
 env = getfenv(func)
 local newenv = setmetatable({},{
@@ -56,7 +58,7 @@ end)
 
 local TOGGLE_INPUT_PRIORITY = Enum.ContextActionPriority.Low.Value
 local INPUT_PRIORITY = Enum.ContextActionPriority.High.Value
-local FREECAM_MACRO_KB = {Enum.KeyCode.J}
+local FREECAM_MACRO_KB = {Enum.KeyCode.Z}
 
 local NAV_GAIN = Vector3.new(1, 1, 1)*64
 local PAN_GAIN = Vector2.new(0.75, 1)*8
