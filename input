@@ -1,0 +1,52 @@
+local guy = "             Vegan Reborn Commands
+- ------------------------------------------- -
+===============================================
+- Standard commands 
+/age (plr)
+/Id (plr)
+/view (plr)
+/unview 
+/nolimbs
+/nolegs
+/fov
+/ws (num)
+/jp (num)
+/default
+/hh (num)
+- Shop Teleports 
+/uzi
+/machete 
+/glock
+/sawedoff
+/bat
+/spray
+/pipe
+/bottle
+/golf
+- others
+/triggerbot
+/gmod
+/aim (plr)
+/speed (1-3)
+/unspeed
+/reset
+/aidez
+/island
+/bypass
+/unbypass
+/goto
+/follow
+/unfollow
+/bfg
+- animations
+/ssj
+/golem
+/furry
+/tpose
+/sit
+/fightpack
+- lighting
+/space
+/cold"
+
+print(guy)
