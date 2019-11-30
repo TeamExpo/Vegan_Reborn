@@ -4,5 +4,6 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/TeamExpo/L4g/master/
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/TeamExpo/L4g/master/Zer'),true))()
 end
 
-
+while true do
 spawn(b)
+end
