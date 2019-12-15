@@ -715,6 +715,7 @@ L_20_.TextColor3 = Color3.new(1, 1, 1)
 L_20_.TextSize = 14
 L_20_.TextTransparency = -97
 L_21_.Name = "Z"
+wait(1)
 L_21_.Parent = L_15_
 L_21_.BackgroundColor3 = Color3.new(0.0666667, 0.0666667, 0.0666667)
 L_21_.BackgroundTransparency = 0.5
