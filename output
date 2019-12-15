@@ -1176,25 +1176,25 @@ coroutine.wrap(L_33_func)()
 local function L_34_func()
 	local L_142_ = Instance.new('LocalScript', L_2_)
 	local L_143_ = L_142_.Parent
-	toggle = false
+	toggle1 = false
 	local L_144_ = game.Players.LocalPlayer:GetMouse()
 	TweenService = game:GetService("TweenService")
-	tweenInfo1 = TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
-	tween1 = TweenService:Create(L_143_, tweenInfo1, {
+	tweenInfo5 = TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
+	tween5 = TweenService:Create(L_143_, tweenInfo1, {
 		Position = UDim2.new(0.45, 0, 0.2, 0)
 	})
-	tweenInfo2 = TweenInfo.new(2, Enum.EasingStyle.Quart, Enum.EasingDirection.InOut)
-	tween2 = TweenService:Create(L_143_, tweenInfo1, {
+	tweenInfo6 = TweenInfo.new(2, Enum.EasingStyle.Quart, Enum.EasingDirection.InOut)
+	tween6 = TweenService:Create(L_143_, tweenInfo1, {
 		Position = UDim2.new(0.45, 0, -1, 0)
 	})
 	L_144_.KeyDown:Connect(function(L_145_arg1)
 		if L_145_arg1 == "t" then
-			if not toggle then
-				toggle = true
-				tween1:Play()
+			if not toggle1 then
+				toggle1 = true
+				tween5:Play()
 			else
-				toggle = false
-				tween2:Play()
+				toggle1 = false
+				tween6:Play()
 			end
 		end
 	end)
